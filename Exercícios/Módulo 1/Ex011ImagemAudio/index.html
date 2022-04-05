@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mídias em HTML5</title>
+</head>
+<body>
+
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e dimunua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagensdinamicas/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagensdinamicas/media.png" type="image/png">
+       <img src="imagensdinamicas/grande.png" alt="imagem flexivel"> 
+    </picture>
+
+
+    <h1>Audios no site</h1>
+    <p>Vamos aprender a reproduzir audios em html5</p>
+    <audio preload="metadata" controls>
+        <source src="midia/X2Download.com - Alok & Bhaskar - FUEGO (Original Mix) (128 kbps).mp3" type="audio/mpeg">
+    </audio>
+    <p>Para baixar clique no <a href="midia/X2Download.com - Alok & Bhaskar - FUEGO (Original Mix) (128 kbps).mp3" download="musicaeletronica.mp3">link</a></p>
+
+    <h1>Audios hospedados pelo spotify</h1>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/18asYwWugKjjsihZ0YvRxO?utm_source=generator" width="25%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+    </iframe>
+
+    
+
+</body>
+</html>
